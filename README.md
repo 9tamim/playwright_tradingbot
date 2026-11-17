@@ -1,55 +1,3 @@
-README.md:
-
-Full documentation. Let me structure:
-
-    Title + badges-ish summary
-
-    Overview
-
-    File structure
-
-    Quick start / deployment
-
-    Configuration (PW_CONFIG, PW_AUTOMATION)
-
-    SEO / GEO / AEO setup
-
-    Analytics (GA4, Meta, TikTok, etc.)
-
-    UTM tracking rules
-
-    AI discovery (llms.txt, robots.txt, sitemap)
-
-    IndexNow (fast indexing without Google)
-
-    Event tracking reference
-
-    Consent flow
-
-    Testing / validation
-
-    Changelog
-
-    Support
-
-Let me write this thoroughly but organized.
-
-I should also include a Bengali quick-note section since user speaks Bengali, or keep it English for professionalism. I'll do English with a small Bangla summary at the top or notes in key sections.
-
-Actually let me put a brief Bangla "শুরুর নির্দেশিকা" at the end or top.
-
-Let me draft:
-markdown
-
-# Pipwright AI Forex Bots
-
-Landing page for Pipwright — a cloud platform that runs six AI forex trading bots on MetaTrader 5, cTrader and TradingView.
-
-**Live URL:** https://yourdomain.com/
-**Status:** Production-ready (replace placeholders before deploy)
-**Last updated:** 2026-11-12
-
----
 
 ## 1. Overview
 
@@ -103,22 +51,10 @@ For testing, validation links (Schema validator, PageSpeed, etc.).
 
 For changelog, mention the head fix.
 
-Let me also add a "Pre-launch checklist" section which is very useful.
 
-Then Bengali short guide at the end.
 
-Let me write it all now.
-
-I'll keep it comprehensive but scannable with clear headers and tables.
-
-Let me make sure the URLs are consistent placeholder https://yourdomain.com/.
-
-Also add "Last reviewed" section date to match the page.
-
-Let me finalize the four files now. I'll present them in clearly labeled code blocks.
-Pipwright — চারটা ফাইল (llms.txt, sitemap.xml, robots.txt, README.md)
-
-নিচের চারটা ফাইল কপি করে আপনার সাইটের রুট ডিরেক্টরিতে রাখুন। শুধু yourdomain.com আর your-indexnow-key বদলাবে।
+Pipwright — 4 files  (llms.txt, sitemap.xml, robots.txt, README.md)
+ please save 4 files and copy as seperate files only yourdomain.com and your-indexnow-key will chnage
 1. llms.txt
 text
 
