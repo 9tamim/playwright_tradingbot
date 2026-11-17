@@ -1,0 +1,65 @@
+# Pipwright
+
+> Pipwright is a cloud platform that runs six AI-driven forex trading bots on MetaTrader 5, cTrader and TradingView accounts. Each bot targets one trading style (trend, scalping, range, news, carry, hedge overlay) and applies fixed risk rules, spread filters and a news blackout before every order. It connects with trade-only permissions, so it cannot withdraw funds.
+
+## Overview
+
+- Category: Automated forex trading software
+- Platforms: MetaTrader 5, cTrader, TradingView webhooks
+- Instruments: 28 major and minor currency pairs (Pro and Desk plans)
+- Access: Trade-only. No withdrawal or transfer rights.
+- Modes: Backtest, paper trading (free), live
+- Hosting: Cloud. No VPS or terminal required.
+- Pricing: Starter $0/mo, Pro $49/mo, Desk $199/mo
+- Founded: 2026
+- Headquartered: Worldwide (subject to local regulation)
+
+## Main pages
+
+- [Pipwright home](https://yourdomain.com/): Six AI forex bots, market sessions, risk calculator, pricing.
+- [Bot lineup](https://yourdomain.com/#bots): Compare all six bots with timeframes, holding times and risk profiles.
+- [Market sessions](https://yourdomain.com/#sessions): 24-hour UTC session band showing Sydney, Tokyo, London, New York and overlap.
+- [How it works](https://yourdomain.com/#how): Four-step onboarding from connection to live trading.
+- [Engine architecture](https://yourdomain.com/#engine): Signal, execution, risk and operations layers inside every bot.
+- [Risk calculator](https://yourdomain.com/#calculator): Position sizing formula used by every bot.
+- [Pricing](https://yourdomain.com/#pricing): Starter, Pro and Desk plan comparison.
+- [Availability](https://yourdomain.com/#coverage): Regional notes for Europe, Asia-Pacific, South Asia, Middle East, North America, Latin America.
+- [FAQ](https://yourdomain.com/#faq): Definitions, platform support, risk management, legality, currency pairs.
+- [Campaign link builder](https://yourdomain.com/#promote): UTM-tagged share links for marketing.
+
+## The six bots
+
+- **Trendline** — Trend following on H1/H4. Holds 1 to 5 days. London and New York sessions. Rides multi-day moves, cuts losers early, skips ranging markets.
+- **Open Range Scalper** — Session scalping on M1/M5. Holds 2 to 30 minutes. London and New York opens. Trades the first breakout; stands down when spreads widen.
+- **Rangekeeper** — Range mean reversion on M15/H1. Holds 1 to 12 hours. Sydney and Tokyo sessions. Fades quiet Asian ranges, exits when a breakout starts.
+- **Newsdesk** — Event-driven on M1/M5. Holds minutes. Release windows. Reads central bank statements and data releases for surprise, then trades the first move or stays out.
+- **Carry Compass** — Swing carry on D1. Holds 2 to 8 weeks. Checks once daily at New York close. Holds pairs with the widest interest rate gap in trend direction; exits when volatility spikes.
+- **Hedge Guard** — Risk overlay at account level. Always on. Caps net exposure per currency, trims positions as drawdown rises, can flatten all accounts.
+
+## Risk model
+
+- Fixed fractional position sizing: lot size = (balance × risk %) ÷ (stop pips × pip value per lot)
+- Spread and slippage guard blocks orders when live spread exceeds the bot's ceiling
+- News blackout pauses every bot around scheduled releases
+- Daily, weekly and equity loss caps pause all bots at once
+- Kill switch closes all open positions with one action
+- Backtester and paper mode for forward testing before live capital
+
+## Pricing
+
+- **Starter** — $0/month. Paper trading only. One bot at a time. 3 currency pairs. 30-day journal.
+- **Pro** — $49/month. All six bots. Live trading on one broker account. 28 pairs. Full backtester and CSV export.
+- **Desk** — $199/month. Up to five broker accounts. Hedge Guard across all accounts. Webhooks and REST API. Priority support.
+
+## What Pipwright is not
+
+- Not investment advice, tax advice or legal advice
+- Not a profit guarantee. No bot can guarantee returns.
+- Not a broker. Pipwright connects to the broker you already use.
+- Not able to withdraw funds. Trade-only permissions mean funds stay with your broker.
+
+## Optional
+
+- [llms-full.txt](https://yourdomain.com/llms-full.txt): Full concatenated text of the landing page for retrieval-augmented generation.
+- [Sitemap](https://yourdomain.com/sitemap.xml): XML sitemap.
+- [Robots](https://yourdomain.com/robots.txt): Crawl policy, including AI user agents.
